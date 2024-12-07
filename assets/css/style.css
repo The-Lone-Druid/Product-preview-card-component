@@ -1,0 +1,22 @@
+.text-display {
+  font-family: Fraunces;
+  font-weight: bold;
+  font-size: 2rem;
+  line-height: 2rem;
+}
+
+.text-body {
+  font-weight: medium;
+  font-size: 0.875rem;
+  line-height: 1.438rem;
+}
+
+.text-button {
+  font-weight: bold;
+  font-size: 0.875rem;
+}
+
+.text-overline {
+  font-weight: medium;
+  font-size: 0.75rem;
+}
