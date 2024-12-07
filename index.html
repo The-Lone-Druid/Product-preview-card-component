@@ -24,5 +24,51 @@
 
     <title>Frontend Mentor | Product preview card component</title>
   </head>
-  <body></body>
+  <body class="bg-cream">
+    <main>
+      <div class="md:h-screen md:w-screen flex md:items-center justify-center px-5 py-7">
+        <div
+          class="rounded-[10px] max-w-[600px] bg-pure-white flex flex-col md:flex-row overflow-hidden"
+        >
+          <img
+            src="./assets/images/image-product-desktop.jpg"
+            alt="card image"
+            srcset="./assets/images/image-product-desktop.jpg"
+            class="md:w-[50%] max-md:w-full max-md:h-[240px] max-md:object-cover"
+          />
+          <div class="md:flex-1 p-8">
+            <span class="text-overline text-aurometal-saurus">PERFUME</span>
+            <h1 class="mt-5 text-display text-gunmetal">
+              Gabrielle Essence Eau De Parfum
+            </h1>
+            <p class="mt-6 text-body text-aurometal-saurus">
+              A floral, solar and voluptuous interpretation composed by Olivier
+              Polge, Perfumer-Creator for the House of CHANEL.
+            </p>
+            <div class="flex items-center mt-[29px] gap-5">
+              <h2 class="text-display text-deep-aquamarine">$149.99</h2>
+              <h4
+                class="text-[13px] font-medium line-through text-aurometal-saurus leading-6"
+              >
+                $169.99
+              </h4>
+            </div>
+            <div class="mt-[30px]">
+              <button
+                class="flex items-center justify-center gap-[11.61px] py-[15px] px-[62px] bg-deep-aquamarine hover:bg-deep-aquamarine-hovered transition-all rounded-lg w-full"
+              >
+                <img
+                  src="./assets/images/icon-cart.svg"
+                  alt="button icon"
+                  srcset="./assets/images/icon-cart.svg"
+                  class="h-[16px] w-[14.39px] text-pure-white"
+                />
+                <span class="text-button text-pure-white">Add to Cart</span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
 </html>

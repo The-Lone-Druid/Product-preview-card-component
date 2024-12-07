@@ -6,7 +6,7 @@
 }
 
 .text-body {
-  font-weight: medium;
+  font-weight: 500;
   font-size: 0.875rem;
   line-height: 1.438rem;
 }
@@ -17,6 +17,7 @@
 }
 
 .text-overline {
-  font-weight: medium;
+  font-weight: 500;
   font-size: 0.75rem;
+  letter-spacing: 5px;
 }
